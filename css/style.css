@@ -1,0 +1,183 @@
+
+
+body {
+    font-size: 14px;
+    font-family: Arial;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+	
+	text-align: center;
+}
+.buttons-quality  {
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #E0FFFF;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: #E0FFFF;
+	cursor: pointer;
+	border-style: solid;
+	width:32%;
+	height:40px;
+	line-height: 40px;
+
+
+}
+
+.music-today {
+	font-style: italic;
+ 	text-align:center;
+  	background-size: cover; 
+  	background-position: center;
+  	background-image: url("../img/background-photo.jpg");
+  	height:200px;
+  	color: white;
+  	margin-top: 10px;
+}
+
+
+.smart_musical_news {
+	text-align: center;
+	margin-top: 50px;
+	text-align: center;
+ }
+
+
+.news_for_smart_musical_news {
+    text-align: center;
+}
+
+.tell-everthing-about-music-today {
+	font-family: Courier New;
+	font-size: 13px;
+}
+
+.article-quality {
+	text-align: center;
+	font-size: 16px;
+}
+
+
+.article-left {
+    text-align: left;   
+	font-size: 16px;
+}
+
+.article-right {
+	text-align: right;
+	font-size: 16px;
+}
+
+.text-quality-music {
+	margin-top: 10px;
+	margin-right: 500px;
+	font-size:16px;
+
+}
+
+.text-quality-music2 {
+	margin-top: 70px;
+	margin-left: 500px;
+	font-size:16px;
+}
+
+.footer-section {
+	margin-top:100px;
+	margin-left: 10px;
+}
+
+
+.image-quality {
+	height:200px;
+	width:200px;
+}
+
+.main-buttons-quality {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #E0FFFF;
+    font-family: Arial;
+    margin-top: 20px;
+    float:left;
+    width:25%;
+    text-align: center;
+    min-width:280px;
+    height: 400px;
+}
+
+.main-qualities {
+    display: table;
+
+}
+
+.buttons-quality:hover {
+	background-color:#0e5abad4;
+	border: 1px solid lightgray;
+
+}
+.about-us {
+	font-size: 35px;
+	margin-left:500px;
+	font-weight:bold;
+}
+
+
+.number-1 {
+  margin-left: 400px;
+  margin-top:15px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+
+.buttons-quality a:hover {
+
+}
+  	
+a {
+	text-decoration: none;
+	color:black;
+}
+
+.container {
+	width:1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container{
+        width: 800px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 650px;
+    }
+    .main-buttons-quality {
+    	width: 50%; 
+	}
+}
+
+@media (max-width: 500px) {
+    .container{
+        width: 300px;
+    }
+    .main-buttons-quality {
+    width: 100%; 
+	}
+}
