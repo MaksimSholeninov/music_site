@@ -6,7 +6,8 @@
         </div>  
     </div> 
     <div class="menu">
-            <div class="buttons-quality">Главная
+            <div class="buttons-quality">
+                Главная
             </div>
             <div class="buttons-quality news-button">Новости
             </div>
