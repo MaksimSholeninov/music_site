@@ -1,88 +1,102 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="ru-RU" class="hide-scroll">
-    <head>
-        <link rel="icon" type="image/x-icon" href="img/favicon/music.ico">
-        <link rel="stylesheet" type="text/css" href="css/style.css?v=3">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <title>
-            Музыкальные новости
-        </title>
-        <meta name="Keywords" content="музыка, исполнители, новости, музыкальные новости">
-        <meta name="discription" content="на этой странице вы сможете посмотреть самые актуальные новости музыки">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head >
-    
-    <body>
-        <div class="container">
-            <?php include("header.php"); ?>
-        
-            <div>     
-                <h2 class="smart_musical_news">Современные музыкальные новости  
-                    <div> 
+<head>
+    <link rel="icon" type="image/x-icon" href="img/favicon/music.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=3">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>
+        Музыкальные новости
+    </title>
+    <meta name="Keywords" content="музыка, исполнители, новости, музыкальные новости">
+    <meta name="discription" content="на этой странице вы сможете посмотреть самые актуальные новости музыки">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<script>
+        function info(message){
+            console.log (message);
+        }
+</script>
+
+<div class="container">
+    <?php include("header.php"); ?>
+
+    <div>
+        <h2 class="smart_musical_news">Современные музыкальные новости
+            <div>
                         <pre class="tell-everthing-about-music-today">расскажем обо всем что происходит в мире музыки сегодня 
                         </pre>
-                    </div>
-                 </h2>
-
-                <div class="main-qualities">
-                    <section class="main-buttons-quality article-left"> 
-                        <div> 
-                            <img class="image-quality" src="img/1site.jpg" alt="земфира и журналисты" title="Земфира и журналисты общаються"> 
-                            <p> Продюсер Леонид Бурлаков </p> 
-                            <div> предсказал Земфире 
-                                <div>
-                                    участь Pink Floyd
-                                </div>
-                            </div>
-                        </div>     
-                    </section>
-
-                    <section class="main-buttons-quality article-quality"> 
-                        <img class="image-quality" src="img/2site.jpg" alt="группа Крематорий исполняет свой концерт" title="группа Крематорий и их солист выступают"> 
-                        <p> "Крематорий" </p>
-                        <div> 
-                            на экспорт: русский рок  зазвучал на китайском языке 
-                        </div >               
-                    </section>
-
-                    <section class="main-buttons-quality article-right">  
-                        <img class="image-quality" src="img/3site.jpg" alt="Пол Маккартни исполняет свой концерт в Москве" title="Пол Маккартни исполняет свой концерт в Москве ">
-                        <p>  Маккартни </p>
-                        <div> Кремль, рок-н-ролл: 20 лет назад 
-                            <div> хиты The Beatles 
-                                  звучали на Красной площади
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="main-buttons-quality article-right">
-                       <img class="image-quality" src="img/4site.jpg"alt="полный состав группы Blur сидит на студии" title="группа blur репетирует на студии">
-                        <p>  Blur </p>
-                        <div> выпустил «послешоковый» альбом 
-                            <div>
-                                «The Ballad Of Darren»
-                            </div>
-                        </div>
-                    </section>
-                </div>      
             </div>
-     
-            <footer>
-                <div class="footer-section">
-                    <h2>Связаться с нами
-                    </h2>
-                    <form action="#" method="post">
-                        <input type="email" name="email" class="text-input contact-input" placeholder="Ваш email-адрес">
-                        <textarea rows="4" name="message" class="text-input contact-input" placeholder="Сообщение">
+        </h2>
+
+        <div class="main-qualities">
+            <section class="main-buttons-quality article-left">
+                <div>
+                    <img class="image-quality" src="img/1site.jpg" alt="земфира и журналисты"
+                         title="Земфира и журналисты общаються">
+                    <p> Продюсер Леонид Бурлаков </p>
+                    <div> предсказал Земфире
+                        <div>
+                            участь Pink Floyd
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main-buttons-quality article-quality">
+                <img class="image-quality" src="img/2site.jpg" alt="группа Крематорий исполняет свой концерт"
+                     title="группа Крематорий и их солист выступают">
+                <p onclick="info('крематорий')"> "Крематорий" </p>
+                <div>
+                    на экспорт: русский рок зазвучал на китайском языке
+                </div>
+            </section>
+
+            <section class="main-buttons-quality article-right">
+                <img class="image-quality" src="img/3site.jpg" alt="Пол Маккартни исполняет свой концерт в Москве"
+                     title="Пол Маккартни исполняет свой концерт в Москве ">
+                <p> Маккартни </p>
+                <div> Кремль, рок-н-ролл: 20 лет назад
+                    <div> хиты The Beatles
+                        звучали на Красной площади
+                    </div>
+                </div>
+            </section>
+
+            <section class="main-buttons-quality article-right">
+                <img class="image-quality" src="img/4site.jpg" alt="полный состав группы Blur сидит на студии"
+                     title="группа blur репетирует на студии">
+                <p> Blur </p>
+                <div> выпустил «послешоковый» альбом
+                    <div>
+                        «The Ballad Of Darren»
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-section">
+            <h2>Связаться с нами
+            </h2>
+            <form action="#" method="post">
+                <input type="email" name="email" class="text-input contact-input" placeholder="Ваш email-адрес">
+                <textarea rows="4" name="message" class="text-input contact-input" placeholder="Сообщение">
                         </textarea>
-                        <button type="submit" class="btn btn-big">Отправить
-                        </button>
-                    </form>
-                </div>
-                <div class="footer-bottom">
-                    &copy; 2023 Название вашей компании. Все права защищены.
-                </div>
-            </footer>
-         </div>     
-    </body>
+                <button
+                        onclick="info('ура ура')"
+                        type="submit"
+                        class="btn btn-big">
+                    Отправить
+                </button>
+            </form>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2023 Название вашей компании. Все права защищены.
+        </div>
+    </footer>
+</div>
+</body>
 </html>
