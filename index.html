@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="ru-RU" class="hide-scroll">
 <head>
     <link rel="icon" type="image/x-icon" href="img/favicon/music.ico">
@@ -10,14 +11,12 @@
     <meta name="Keywords" content="музыка, исполнители, новости, музыкальные новости">
     <meta name="discription" content="на этой странице вы сможете посмотреть самые актуальные новости музыки">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/main.js">
+    </script>
 </head>
 
+
 <body>
-<script>
-        function info(message){
-            console.log (message);
-        }
-</script>
 
 <div class="container">
     <?php include("header.php"); ?>
@@ -82,10 +81,10 @@
             <h2>Связаться с нами
             </h2>
             <form action="#" method="post">
-                <input type="email" name="email" class="text-input contact-input" placeholder="Ваш email-адрес">
+                <input id="email" onchange="activateSendButton()" type="email" name="email" class="text-input contact-input" placeholder="Ваш email-адрес">
                 <textarea rows="4" name="message" class="text-input contact-input" placeholder="Сообщение">
                         </textarea>
-                <button
+                <button id="send" disabled
                         onclick="info('ура ура')"
                         type="submit"
                         class="btn btn-big">
