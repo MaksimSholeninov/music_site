@@ -180,4 +180,13 @@ a {
     .main-buttons-quality {
     width: 100%; 
 	}
+
+	.form-quality {
+	margin: 10px;
+		text-align: center;
+    }
+
+	.text-input-contact-input {
+	margin: 10px;
+
 }

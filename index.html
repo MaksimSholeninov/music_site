@@ -81,12 +81,17 @@
             <h2>Связаться с нами
             </h2>
             <form action="#" method="post">
-                <input id="email" onchange="activateSendButton()" type="email" name="email" class="text-input contact-input" placeholder="Ваш email-адрес">
-                <textarea rows="4" name="message" class="text-input contact-input" placeholder="Сообщение">
-                        </textarea>
+                <input id="email" onkeyup="activateSendButton()" type="text" name="email"
+                       class="text-input contact-input" placeholder="Ваш email-адрес">
+                <textarea
+                        rows="4"
+                        name="message"
+                        class="text-input contact-input"
+                        placeholder="Сообщение">
+                </textarea>
                 <button id="send" disabled
                         onclick="info('ура ура')"
-                        type="submit"
+                        type="button"
                         class="btn btn-big">
                     Отправить
                 </button>
