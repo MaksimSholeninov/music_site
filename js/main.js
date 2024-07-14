@@ -13,3 +13,9 @@ function activateSendButton() {
     }
 }
 
+
+function submitField(fieldId) {
+    const value = document.getElementById(fieldId).value;
+    alert(`Поле "${fieldId}" отправлено со значением: ${value}`);
+    // Здесь можно добавить код для отправки данных на сервер
+}
